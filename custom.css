@@ -1,0 +1,216 @@
+﻿/*==============  Jq grid custom styles ================*/
+
+/* set the size of the datepicker search control for Order Date*/
+#ui-datepicker-div {
+    font-size: 11px;
+}
+
+/* set the size of the autocomplete search control*/
+.ui-menu-item {
+    font-size: 11px;
+}
+
+.ui-autocomplete {
+    font-size: 11px;
+}
+
+.ui-jqgrid, .ui-jqgrid-view, .ui-jqgrid-hdiv, .ui-jqgrid-pager, .ui-jqgrid-htable, .ui-jqgrid-btable {
+    width: 100% !important;
+}
+
+.ui-jqgrid-bdiv {
+    width: 100% !important;
+}
+
+.ui-jqgrid-bdiv {
+    height: auto !important;
+}
+
+.ui-th-column {
+    font-size: 13px;
+    font-weight: 600;
+    /* background-color: #769292 !important; */
+    /*background-color: #03a9f3 !important;*/
+    color: #fff;
+    /*padding: 2px 5px !important;*/
+    text-align: left;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th {
+    /*background-color: #03a9f3 !important;*/
+    /*background: #01c0c8 !important;*/
+    height:auto !important;
+    
+}
+
+/*.ui-state-hover {
+    color: white !important;
+}*/
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: 1px solid #e7ecf1;
+    /*background: #557575 url(images/ui-bg_glass_45_0078ae_1x400.png) 50% 50% repeat-x;*/
+    font-weight: normal;
+    color: #ffffff;
+    border-radius: 0px !important;
+}
+
+.ui-jqgrid-view select {
+    font-size: 13px !important;
+}
+
+.ui-widget-content {
+    border-radius: 0px;
+    border: 1px solid #ccc;
+    z-index: 9;
+}
+
+    .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+        /*background-color:transparent !important;*/
+        border: none !important;
+    }
+
+.ui-jqgrid tr.jqgrow td {
+    border-bottom-width: 0px !important;
+}
+
+.ui-jqgrid .ui-jqgrid-pager .ui-pager-table {
+    background: white;
+    color: black;
+}
+
+.ui-jqgrid .ui-jqgrid-pager .ui-pager-control {
+    height: auto !important;
+}
+
+/*.ui-search-toolbar {
+    display: none !important;
+}*/
+
+#jqGridPager_left {
+    width: 0px !important;
+}
+
+.ui-jqgrid .ui-jqgrid-pager {
+    min-height: unset !important;
+}
+
+#input_jqGridPager {
+    display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box; /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox; /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Chrome */
+    display: flex; /* NEW, Spec - Opera 12.1, Firefox 20+ */
+    -ms-align-items: center;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    line-height: 24px;
+}
+
+input.ui-pg-input.ui-corner-all {
+    border: 1px solid #09a9ab;
+    text-align: center;
+    padding: 9px 0px;
+    background: #09a9ab;
+    color: white;
+    font-size: 11px;
+    -webkit-user-select: none !important;
+    -moz-user-select: none !important;
+    -ms-user-select: none !important;
+    user-select: none !important;
+}
+
+td#refresh_jqGrid {
+    display: none;
+}
+
+span.colmenuspan.ui-icon.ui-icon-comment {
+    display: none;
+}
+
+.ui-jqgrid .ui-jqgrid-htable .ui-th-div {
+    height: 17px;
+    margin-top: 0px;
+}
+
+
+.ui-jqgrid .ui-pg-table td {
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0px 1px;
+    height: 20px;
+}
+
+.ui-jqgrid .ui-jqgrid-pager .ui-pager-table, .ui-jqgrid .ui-jqgrid-toppager .ui-pager-table {
+    width: 100%;
+    table-layout: fixed;
+    height: 6%;
+}
+
+.ui-jqgrid .ui-pg-table td {
+    font-weight: normal;
+    vertical-align: middle;
+    padding: 0px 1px;
+    height: 37px;
+    font-size: 13px;
+}
+
+#sp_1_jqGridPager {
+    padding-left: 2px;
+}
+
+.dt-buttons a {
+    text-decoration: none !important;
+    padding: 5px;
+    margin: 5px;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+}
+
+    .dt-buttons a:hover {
+        background: #03a9f3;
+    }
+
+    .dt-buttons a:hover, .dt-buttons a:visited, .dt-buttons a:focus {
+        text-decoration: none !important;
+    }
+
+.ui-jqgrid tr.jqgrow td {
+    text-align: center;
+    border-right: 1px solid #cecece;
+    font-size: 13px;
+    padding: 5px 0px;
+}
+.ui-jqgrid tr.jqgrow td:last-child{
+    border-right:0px;
+}
+
+/*.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #fcd113;
+    background: #03a9f3;
+    color: #915608;
+    color: #fff;
+}*/
+.ui-jqgrid tr:nth-child(even) {
+    background: #e9edf1;
+}
+
+.ui-state-hover {
+    background-color: none !important;
+}
+.ui-jqgrid tr.jqgfirstrow td{
+    border-color:#cecece;
+}
+.ui-jqgrid tr.jqgfirstrow td:last-child{
+    border:0px;
+}
+
+
+
+/*================ End Jq grid custom styles ==================*/
