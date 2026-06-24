@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Libraries/">
+    <Project Path="VisitorWebAPI.Core/VisitorWebAPI.Core.csproj" />
+    <Project Path="VisitorWebAPI.Data/VisitorWebAPI.Data.csproj" />
+    <Project Path="VisitorWebAPI.Utilities/VisitorWebAPI.Utilities.csproj" />
+  </Folder>
+  <Folder Name="/Presentation/">
+    <Project Path="VisitorWebAPI/VisitorWebAPI.csproj" />
+  </Folder>
+</Solution>

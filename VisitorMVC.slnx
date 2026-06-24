@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/Presentation/">
+    <Project Path="VisitorMVC/VisitorMVC.csproj" />
+  </Folder>
+</Solution>
